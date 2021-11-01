@@ -1,0 +1,45 @@
+.main{
+    margin-left: 43%;
+}
+.search{
+    background-color: gray;
+    text-align: center;
+}
+.content{
+    display: inline-block;
+    text-align: center;
+    margin-top: 1px;
+}
+.firstcard{
+
+    float: left;
+    margin-top: 1px;
+    border-right: 2px white solid;
+    padding-inline-end: 305px;
+    padding-bottom: 27px;
+    background-color: #08c9c9;
+  
+}
+.secondcard{
+
+    float: left;
+    margin-top: 1px;
+    border-right: 2px white solid;
+    padding-inline-end: 305px;
+    background-color: #07adaf;
+    padding-bottom: 9px;
+   
+}
+.thirdcard{
+    padding-inline-end: 307px;
+    float: left;
+    margin-top: 1px;
+    background-color: #208383;
+ 
+}
+li{
+    list-style-type:none;
+}
+footer{
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+/*
+    Açıklama Satırı
+*/
+
+
+body{
+    background-color: gray;
+    color: white;
+    font-family: 'Roboto', sans-serif;}
+h1{
+    color: purple ;
+    font-size: 1.875em; /* 30px/16=1.875em */
+    text-transform: uppercase;
+}
+p{
+    font-size: 20px;
+    font-style: italic;
+}
+ul{
+    color: blue;
+}
+
+/*
+    CSS'de beş genel yazı tipi ailesi vardır:
+
+    *Serif  -> yazı tiplerinin her harfin kenarlarında küçük bir kontur vardır. Bir formalite ve zarafet duygusu yaratırlar.
+    *Sans-serif -> yazı tiplerinin temiz satırları vardır (küçük konturlar eklenmez). Modern ve minimalist bir görünüm yaratırlar.
+    *Monospace -> yazı tipleri burada tüm harfler aynı sabit genişliğe sahiptir. Mekanik bir görünüm yaratırlar.
+    *Cursive -> yazı insan el yazısı taklidi gibidir.
+    *Fantasy -> yazı tipleri dekoratif, eğlenceli yazı tipleridir.
+
+
+*/

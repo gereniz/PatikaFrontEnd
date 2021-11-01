@@ -1,0 +1,17 @@
+.content{
+    float: inline-start;
+    padding-left: 85px;
+}
+.card{
+    border-radius: 10px;
+    background-color: rosybrown;
+    padding: 12px;
+    margin: 10px;
+    float: left;
+}
+img{
+    display: block; margin: auto;
+}
+h2{
+    text-align: center;
+}

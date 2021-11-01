@@ -1,0 +1,51 @@
+/*
+    class -> .classBilgisi {}
+    id -> #idBilgisi {}
+*/
+
+h1 , h2 , h3 , h4 , h5 , h6{
+    color: #202020;
+}
+
+.text-red{
+    color: red;
+}
+
+.fs-14{
+    font-size: 14px;
+}
+
+.fs-24{
+    font-size: 24px;
+}
+
+.fs-34{
+    font-size: 34px;
+}
+
+/* ikisi de kullanılmak zorunda */
+.color-blue.fw-inherit{
+    color: blue;
+    font-weight: inherit;
+}
+/* kendi elementin de gerçekleşme için alt etiketininde şartı sağlaması gerekir*/
+.color-blue .fw-inherit{
+    color: blue;
+    font-weight: inherit;
+}
+
+
+li:first-child {
+    color : green
+}
+
+li:last-child{
+    color: aqua;
+}
+
+li:nth-child(3){ /* odd -> tekler even -> çift  3n -> 3ün katları an+b -> a katı b fazlası */
+    color: red;
+}
+#first-article{
+    font-size: 40px;
+}
